@@ -7,7 +7,7 @@ const mango = JSON.parse(json);
 console.log(mango);
 
 //Weryfikuję, czy właściwości otrzymanego obiektu odpowiadają oryginalnemu ciągowi JSON.
-//Na początek zamieniam tu user.jsno na obiekt (będę potrzebowała zamienić go na string)
+//Na początek zamieniam tu user.json na obiekt (będę potrzebowała zamienić go na string)
 const user =
 {
     name: "Josh",
@@ -26,9 +26,9 @@ const user =
 console.log(user);
 // teraz go zamieniam na string
 const userJson = JSON.stringify(user);
-//sprawszam w konsoli zamianę
+//sprawdzam w konsoli zamianę
 console.log(userJson);
-//sprawdzam czy te dwa stringi są jednakowe
+//sprawdzam, czy te dwa stringi są jednakowe
 
 if (userJson === json) {
     console.log("Stringi userJson i json są takie same!");
@@ -51,7 +51,7 @@ try {
     // jeśli wyłapie błąd , chcę aby wyświetlił pusty obiekt
     mango2 = '{"name":"","age":,"isHappy":, "eyecolor": ""}';
 }
-//sprawdzam co mi się wpisało
+//sprawdzam, co mi się wpisało
 console.log(mango2);
 
 //tworzę też testowy log aby sprawdzić czy mam obsługe błędu i czy kod poszedł dalej (błęd nie zatrzymał kodu)
