@@ -1,4 +1,4 @@
-//2
+//2.
 //przekonwertowuję ten ciąg z powrotem na obiekt JavaScript
 const json = '{"name":"Mango","age":3,"isHappy":true}'
 const mango = JSON.parse(json);
@@ -7,7 +7,7 @@ const mango = JSON.parse(json);
 console.log(mango);
 
 //Weryfikuję, czy właściwości otrzymanego obiektu odpowiadają oryginalnemu ciągowi JSON.
-//Na początek zamieniam tu user.json na obiekt (będę potrzebowała zamienić go na string)
+//Na początek zamieniam tu user.json - obiekt (będę potrzebowała zamienić go na string)
 const user =
 {
     name: "Josh",
@@ -37,7 +37,7 @@ if (userJson === json) {
 }
 
 
-//2.
+//3.
 //Przeprowadzam próbę parsowania nieprawidłowego ciągu JSON.
 const json2 = '{name:"Mango","age":3,"isHappy":true, "eyecolor": "brown"}';
 let mango2 
